@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   margin-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 1.8rem;
   background: #222222;
   color: rgb(216, 216, 216);
   font-family: "Fira Code Regular", Fallback, sans-serif;
@@ -33,7 +33,7 @@ header {
 
 .main-link {
   font-family: "Fira Code Bold";
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .main-wrapper {
