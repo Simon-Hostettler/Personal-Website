@@ -31,6 +31,11 @@ header {
   display: flex;
 }
 
+footer {
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+
 .body-wrapper {
   min-height: 100%;
   display: flex;
@@ -44,7 +49,7 @@ header {
 }
 
 .main-wrapper {
-  margin: auto;
+  margin: 2rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,8 +57,7 @@ header {
 
 .intro-text {
   width: 70%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
   line-height: 1.8;
 }
@@ -67,6 +71,21 @@ header {
   width: 2rem;
   height: 2rem;
   vertical-align: middle;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
 }
 
 @font-face {
