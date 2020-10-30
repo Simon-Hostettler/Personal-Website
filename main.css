@@ -73,6 +73,14 @@ footer {
   vertical-align: middle;
 }
 
+.blue {
+  color: #528db7;
+}
+
+.orange {
+  color: #e77945;
+}
+
 @keyframes blink {
   50% {
     opacity: 0;
